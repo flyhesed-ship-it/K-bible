@@ -1,0 +1,6 @@
+{
+  "name": "성경",
+  "description": "구약과 신약 성경을 장과 절로 나누어 편리하게 읽고, 실시간 AI 말씀 묵상 도우미 및 상황별 성구 검색 기능을 제공하는 한글 성경 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

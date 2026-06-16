@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif KR", Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-gold: #8C7851;
+  --color-brand-border: #D1C7B7;
+  --color-brand-bg: #FFFFFF;
+  --color-brand-sidebar: #F9F9F7;
+  --color-brand-active: #EBE5DB;
+  --color-brand-charcoal: #000000;
+  --color-brand-offblack: #000000;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bible-text {
+  font-family: var(--font-serif);
+}
+
+
